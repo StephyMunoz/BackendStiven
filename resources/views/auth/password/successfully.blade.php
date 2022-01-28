@@ -33,7 +33,7 @@
     <div class="row justify-content-center align-items-center text-center ">
         <div class="col-md-8  align-self-center">
 
-            <a href="http://localhost:3000/">
+            <a href="https://prueba-rho.vercel.app/">
                 <button type="button" class="btn btn-primary">Ingresar al sitio web</button>
 
             </a>
