@@ -25,7 +25,7 @@ class DetailsController extends Controller
     public function all()
     {
 
-        $details = DB::table('buy_details')->orderBy('id', 'desc')->paginate(5);
+        $details = DB::table('buy_details')->orderBy('id', 'desc')->paginate(1);
 
         return response()->json($details,200);
     }
